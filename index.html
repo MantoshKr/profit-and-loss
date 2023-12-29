@@ -26,8 +26,30 @@
 
 <body>
     <div>
-        profit & loss
-    </div>
+        <div class="flex justify-center mt-10 text-3xl font-bold  text-green-500">
+          Stocks Profit & Loss Calculator
+        </div>
+      
+        <main class="flex items-center flex-col justify-center mt-20">
+      
+    
+          <label for="initial-price" class="font-semibold text-xl mb-1">Intial Price</label>
+          <input class="mb-4 px-10 py-2  rounded-lg" type="text" id="initial-price" placeholder="Enter Initial Price Here" />
+
+          <label for="stocks-quantity" class="font-semibold text-xl mb-1"> Quantity of Stocks</label>
+          <input class="mb-4 px-10 py-2 rounded-lg" type="text"  id="stocks-quantity"  placeholder="Enter the Number of Stocks bought" />
+
+          <label  for="current-price" class="font-semibold text-xl mb-1">Current Price</label>
+          <input class="mb-4 px-10 py-2  rounded-lg" type="text" id="current-price" placeholder="Enter the Current Price" />
+      
+          <a id="calculate-number"
+            class="inline-block rounded-xl border border-green-600 bg-green-600 px-6 py-2 text-lg font-semibold text-white hover:bg-transparent hover:text-green-600 focus:outline-none focus:ring active:text-green-500"
+            href="#">
+            Tell Me 
+          </a>
+          <p id="output-container"></p>
+        </main>
+      </div>
     <script src="" async defer></script>
 </body>
 
